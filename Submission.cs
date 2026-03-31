@@ -25,18 +25,6 @@ namespace ConsoleApp1
 
         public static void Main(string[] args)
         {
-            string result = Verification(args[0], args[2]);
-            Console.WriteLine(result);
-
-            result = Verification(args[1], args[2]);
-            Console.WriteLine(result);
-
-            result = Xml2Json(args[0]);
-            Console.WriteLine(result);
-        }
-
-        public static void Main(string[] args)
-        {
             string result = Verification(xmlURL, xsdURL);
             Console.WriteLine(result);
 
